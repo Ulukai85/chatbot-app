@@ -6,7 +6,6 @@
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
-    
 
     /* Bundler mode */
     "moduleResolution": "bundler",
@@ -27,9 +26,7 @@
     /* Added for shadnc */
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ]
+      "@/*": ["./src/*"]
     }
   },
   "include": ["src"]
